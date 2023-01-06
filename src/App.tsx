@@ -9,6 +9,7 @@ enum SelectedPage {
   ContactUs = "contactus",
 }
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home
