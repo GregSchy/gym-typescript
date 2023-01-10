@@ -14,6 +14,7 @@ function App() {
     SelectedPage.Home
   );
 
+  s;
   return (
     <div className="app bg-gray-20">
       <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
